@@ -2,9 +2,10 @@
     /* initialize custom CSS variables */
     --grid-rows: 1; 
     --grid-cols: 1;
-    background-color: rgb(202, 149, 130);
-    font-family: 'Azeret Mono', monospace;;
+    background-color: rgb(102, 95, 92);
+    font-family: 'Azeret Mono', monospace;
 }
+
 
 .flexbox-container {
     display: flex;
@@ -28,6 +29,15 @@
 
 .menu {
     display: flex;
+    width: 100vw;
+}
+
+span.spacer:first-child{
+    flex: 1 1 15%;
+}
+
+span.spacer:last-child {
+    flex: 1 1 25%;
 }
 
 .selection {
@@ -61,6 +71,8 @@
     width: 500px;
     background-color: rgb(185, 182, 182); 
     border: 1px solid rgb(63, 62, 62);
+    box-shadow: 0 0 30px black;
+
 }
 
 /* .box {
